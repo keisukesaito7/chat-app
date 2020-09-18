@@ -12,12 +12,43 @@
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  /* 名前とボタンを横並び */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name > a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room > a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .rooms {
   height: calc(100% - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name > a {
+  color: white;
+  text-decoration: none;
 }
 
 .chat {
