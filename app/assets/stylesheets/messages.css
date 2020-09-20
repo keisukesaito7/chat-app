@@ -1,0 +1,156 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.side-bar-header {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  /* 名前とボタンを横並び */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name > a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room > a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
+  height: calc(100% - 100px);
+  background-color: #2F3E51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name > a {
+  color: white;
+  text-decoration: none;
+}
+
+.chat {
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.chat-header {
+  height:100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  color: #333;
+  font-size: 24px;
+  /* margin-top: 36px; */
+}
+
+.header-button > a {
+  border: 1px solid darkred;
+  padding: 20px;
+  color: darkred;
+  text-decoration: none;
+}
+
+.messages {
+  height: calc(100vh - 100px - 90px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  padding: 10px 0;
+  margin-bottom: 40px;
+  /* border: 1px solid black; */
+}
+
+.name-date {
+  display: flex;
+}
+
+.user-name {
+  color: #434A54;
+  font-size: 16px;
+  margin: 0 10px 10px 0;
+}
+
+.post-date {
+  color: #999;
+  font-size: 12px;
+}
+
+.post-text {
+  color: #434A54;
+  font-size: 16px;
+}
+
+.form {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
