@@ -12,32 +12,10 @@
 </div>
 
 <div class="messages">
-  <div class="message">
-    <div class="name-date">
-      <div class="user-name">
-        Tom
-      </div>
-      <div class="post-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="post-text">
-      おはよう
-    </div>
-  </div>
-  <div class="message">
-    <div class="name-date">
-      <div class="user-name">
-        Tom
-      </div>
-      <div class="post-date">
-        2020/3/31(Wed) 12:43:30
-      </div>
-    </div>
-    <div class="post-text">
-      おはよう
-    </div>
-  </div>
+  <%# 【実験】roomsに_message.html.erbを移動
+  partial: "rooms/message" で render
+  行けた！▶︎部分テンプレート名が変数名になる？ %>
+  <%= render partial: "message", collection: @messages %>
 </div>
 
 <%# <div class="form"> %>

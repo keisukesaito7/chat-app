@@ -91,22 +91,22 @@
   /* border: 1px solid black; */
 }
 
-.name-date {
+.upper-message {
   display: flex;
 }
 
-.user-name {
+.message-user {
   color: #434A54;
   font-size: 16px;
   margin: 0 10px 10px 0;
 }
 
-.post-date {
+.message-date {
   color: #999;
   font-size: 12px;
 }
 
-.post-text {
+.message-content {
   color: #434A54;
   font-size: 16px;
 }
